@@ -20,6 +20,7 @@ struct RecentTransactionList: View {
                 Spacer()
                 
                 NavigationLink{
+                    TransactionList()
                     
                 } label: {
                     HStack(spacing: 4){
@@ -38,7 +39,6 @@ struct RecentTransactionList: View {
                 Divider()
                     .opacity(index == 4 ? 0 : 1)
             }
-            
         }
         .padding()
         .background(Color.systemBackground)
