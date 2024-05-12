@@ -14,7 +14,7 @@ struct RecentTransactionList: View {
     var body: some View {
         VStack{
             HStack{
-                Text("Recent Transactions")
+                Text("Letzte Transaktionen")
                     .bold()
                 
                 Spacer()
@@ -24,7 +24,7 @@ struct RecentTransactionList: View {
                     
                 } label: {
                     HStack(spacing: 4){
-                        Text("See All")
+                        Text("Alle anzeigen")
                         Image(systemName: "chevron.right")
                     }
                     .foregroundColor(Color.text)

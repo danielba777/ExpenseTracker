@@ -30,7 +30,7 @@ struct TransactionList: View {
                 }
             }
         }
-        .navigationTitle("Transactions")
+        .navigationTitle("Transaktionen")
         .navigationBarTitleDisplayMode(.inline)
     }
 }
